@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+header {
+    background-color:  #9b4dca;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header nav a {
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+header nav a:hover {
+    color: cyan;
+}
+.h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: rgb(146, 143, 143);
+}
+
+.title {
+    font-size: 1rem;
+}
+main {
+    padding: 30px;
+}
+
+#one {
+    display: flex;
+    justify-content: left;
+
+}
+
+#one a {
+    color: #9b4dca;
+}
+
+#two {
+    display: flex;
+    justify-content: right;
+    
+}
+ #two a {
+     color: #9b4dca;
+ }
+.world {
+    color: rgb(0, 118, 187);
+    font-size: 1.1rem;
+}
+
+.design {
+    color: rgb(32, 216, 48);
+    font-size: 1.1rem;
+}
+
+section {
+    border: 3px solid #d1d1d1;
+    padding: 15px;
+    box-shadow: #d1d1d1;
+    display: grid;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9b4dca;
+    width: 100%;
+}
+footer p{
+    color: white;
+}
+footer div{
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
+@media(max-width: 700px) {
+    body {
+        float: none;
+        width: 100%;
+    }
+
+}
